@@ -1,0 +1,8 @@
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/App.java
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/usersapi/UsersApiApplication.java
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/usersapi/controller/UserController.java
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/usersapi/dto/UserRequest.java
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/usersapi/dto/UserResponse.java
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/usersapi/model/User.java
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/usersapi/repository/UserRepository.java
+/home/lbelof/Projetos/users-api/src/main/java/com/exemplo/usersapi/service/UserService.java

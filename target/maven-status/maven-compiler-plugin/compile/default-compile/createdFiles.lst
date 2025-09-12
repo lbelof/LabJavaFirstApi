@@ -1,0 +1,9 @@
+com/exemplo/usersapi/service/UserService$Conflict.class
+com/exemplo/App.class
+com/exemplo/usersapi/service/UserService.class
+com/exemplo/usersapi/dto/UserResponse.class
+com/exemplo/usersapi/dto/UserRequest.class
+com/exemplo/usersapi/model/User.class
+com/exemplo/usersapi/controller/UserController.class
+com/exemplo/usersapi/service/UserService$NotFound.class
+com/exemplo/usersapi/repository/UserRepository.class
