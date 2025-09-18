@@ -24,7 +24,7 @@ public class UserService {
 
     public UserResponse create(UserRequest req) {
         if (repo.existsByEmail(req.email())) throw new Conflict("Email already in use");
-        var u = new User(req.name(), req.email());
+        var u = new User(req.name(), req.email(),req.telefone());
         return toResp(repo.save(u));
     }
 
@@ -34,6 +34,7 @@ public class UserService {
             throw new Conflict("Email already in use");
         u.setName(req.name());
         u.setEmail(req.email());
+        u.setTelefone(req.telefone());
         return toResp(repo.save(u));
     }
 
@@ -43,7 +44,7 @@ public class UserService {
     }
 
     private UserResponse toResp(User u) {
-        return new UserResponse(u.getId(), u.getName(), u.getEmail());
+        return new UserResponse(u.getId(), u.getName(), u.getEmail(), u.getTelefone());
     }
 
     public static class NotFound extends RuntimeException { public NotFound(String m){ super(m);} }

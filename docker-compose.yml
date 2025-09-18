@@ -1,11 +1,11 @@
 services:
   db:
     image: postgres:16
-    container_name: usersapi-postgres
+    container_name: postgres-learn-java
     environment:
-      POSTGRES_DB: usersdb
-      POSTGRES_USER: users
-      POSTGRES_PASSWORD: users
+      POSTGRES_DB: learnJava
+      POSTGRES_USER: userDbJavaLearn
+      POSTGRES_PASSWORD: pass1Db2Java3Learn
     ports:
       - "5432:5432"
     volumes:

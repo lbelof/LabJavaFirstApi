@@ -1,11 +1,16 @@
 server:
   port: 8080
 
+scalar:
+  enabled: true
+  path: /docs        # URL da UI
+  url: http://localhost:8080/v3/api-docs
+
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/usersdb
-    username: users
-    password: users
+    url: jdbc:postgresql://localhost:5432/learnJava
+    username: userDbJavaLearn
+    password: pass1Db2Java3Learn
   jpa:
     hibernate:
       ddl-auto: update
